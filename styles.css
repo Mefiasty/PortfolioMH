@@ -259,9 +259,10 @@ body {
 
 .profile-image img {
   width: 100%;
+  backdrop-filter: blur(1.5px);
   height: 100%;
-
   object-fit: contain;
+  background: #00000026;
 }
 
 /* Sekcje */
